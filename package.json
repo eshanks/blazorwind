@@ -1,0 +1,14 @@
+{
+  "name": "blazorwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eric Shanks",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tailwindcss": "^3.0.2"
+  },
+  "scripts" : {
+    "build-tailwind": "npx tailwindcss -i ./src/wwwroot/css/tailwind/tailwind.css -o ./src/wwwroot/css/tailwind/tailwind.min.css --minify"
+  }
+}
